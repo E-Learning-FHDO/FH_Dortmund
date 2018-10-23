@@ -15575,12 +15575,18 @@ div#il_startup_logo img {
     height: 0px;
   }
 }
-.ilMainMenu.ilTopFixed {
-  margin-left: 195px;
+.ilMainMenu {
+  background-color: transparent;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 195px;
 }
 @media only screen and (max-width: 767px) {
   .ilMainMenu.ilTopFixed {
     margin-left: 0px;
+    top: 50px;
+    left: 0px;
   }
 }
 #ilTopNav {
@@ -15590,17 +15596,9 @@ div#il_startup_logo img {
   margin: 31px 0 0 0;
   padding: 0 0 0 5px;
 }
-.ilMainMenu {
-  background-color: transparent;
-}
 #ilTopNav .navbar-nav > li > a {
   text-transform: inherit;
   border-top: 4px solid transparent;
-}
-@media only screen and (max-width: 767px) {
-  #ilTopNav .navbar-nav > li > a {
-    color: #5d5d5d;
-  }
 }
 #ilTopNav .navbar-nav > .active > a,
 #ilTopNav .navbar-nav > .open > a,
@@ -15611,6 +15609,11 @@ div#il_startup_logo img {
 #ilTopNav .navbar-nav > .active > a:focus,
 #ilTopNav .navbar-nav > .open > a:focus {
   border-top: 4px solid transparent;
+}
+@media only screen and (max-width: 767px) {
+  #ilTopNav .navbar-nav > li > a {
+    color: #5d5d5d;
+  }
 }
 @media only screen and (max-width: 767px) {
   #ilTopNav button.navbar-toggle {
@@ -15655,10 +15658,6 @@ div#il_startup_logo img {
     background-color: #ff6600;
   }
 }
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ff6600;
-}
 @media only screen and (max-width: 767px) {
   #ilTopNav.navbar-default {
     background-color: white;
@@ -15666,11 +15665,6 @@ div#il_startup_logo img {
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
-  }
-}
-@media only screen and (max-width: 767px) {
-  .ilMainMenu.ilTopFixed {
-    top: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -15683,6 +15677,10 @@ div#il_startup_logo img {
     margin: 0 0 0 0;
     padding: 0 0 0 5px;
   }
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ff6600;
 }
 @media only screen and (max-width: 767px) {
   .ilFixedTopSpacer {
@@ -15866,16 +15864,32 @@ table.calmini td.calminiapp > .il_calmini_monthday > a {
 footer.ilFooter {
   height: 120px;
 }
-#current_perma_link {
-  width: 100%;
+@media only screen and (max-width: 767px) {
+  footer.ilFooter {
+    height: 140px;
+  }
+}
+footer.ilFooter .ilPermalinkContainer {
+  width: 40%;
+}
+@media only screen and (max-width: 767px) {
+  footer.ilFooter .ilPermalinkContainer {
+    width: inherit;
+    margin-bottom: 10px;
+  }
+}
+footer.ilFooter .ilPermalinkContainer > label {
+  width: 120px;
+}
+@media only screen and (max-width: 767px) {
+  footer.ilFooter .ilPermalinkContainer > label {
+    width: 20px;
+  }
+}
+bdo[dir="ltr"] {
+  margin-left: -1%;
 }
 footer.ilFooter div.il_ealearning img {
   width: 150px;
   height: auto;
-}
-footer.ilFooter .ilPermalinkContainer {
-  width: 500px;
-}
-footer.ilFooter .ilPermalinkContainer > label {
-  width: 20%;
 }
