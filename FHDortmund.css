@@ -3556,7 +3556,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: white;
-  background-color: #FFFFD0;
+  background-color: #A0A0A0;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -7263,7 +7263,7 @@ hr.il-divider-with-label {
   border-left: 5px solid;
 }
 .il-narrow-content .il-item:hover {
-  background-color: #FFFFD0;
+  background-color: #fff0e5;
 }
 .il-item-group {
   clear: both;
@@ -8660,7 +8660,7 @@ span.ilAlert {
 .dropdown-menu li > a:focus {
   text-decoration: none;
   color: white;
-  background-color: #FFFFD0;
+  background-color: #A0A0A0;
 }
 .dropdown-menu img {
   border: 0;
@@ -9438,7 +9438,7 @@ footer.ilFooter {
   margin: 0 auto;
   padding: 20px 0 0;
   text-align: left;
-  background-color: #FFFFD0;
+  background-color: #A0A0A0;
   color: white;
 }
 @media only screen and (max-width: 767px) {
@@ -9839,7 +9839,7 @@ div.ilSideBarContent {
 .ui-menu .ui-menu-item > *:hover,
 .ui-menu .ui-menu-item > *.ui-state-hover,
 .ui-menu .ui-menu-item > *.ui-state-active {
-  background-color: #FFFFD0;
+  background-color: #A0A0A0;
   color: #5d5d5d;
 }
 .ui-menu .ui-menu-item a {
@@ -9930,12 +9930,12 @@ img.ilSmallIcon {
 }
 .il_HAccordionHead:hover,
 .il_VAccordionHead:hover {
-  background-color: #FFFFD0;
+  background-color: #fff0e5;
 }
 .il_HAccordionHeadActive,
 .il_VAccordionHeadActive {
   background-image: url("images/tree_exp.svg");
-  background-color: #FFFFD0;
+  background-color: #fff0e5;
 }
 .ilAccHideContent {
   width: 0px;
@@ -10272,13 +10272,13 @@ li.il_Explorer {
 }
 a.il_HighlightedNode,
 .ilHighlighted {
-  background-color: #ffff9d;
+  background-color: #ffd1b3;
   padding: 0 5px;
 }
 li.ilExplSecHighlight {
   background-color: white !important;
-  border-top: solid 2px #e9ea00;
-  border-bottom: solid 2px #e9ea00;
+  border-top: solid 2px #ff6600;
+  border-bottom: solid 2px #ff6600;
 }
 div.il_ExplorerItemDescription {
   margin-left: 40px;
@@ -11094,7 +11094,7 @@ a.nostyle:hover {
   cursor: pointer;
 }
 .ilCOPgEditStyleSelectionItem:hover {
-  background-color: #FFFFD0;
+  background-color: #fff0e5;
 }
 ul#ilAdvSelListTable_style_selection {
   overflow: auto;
@@ -11597,7 +11597,7 @@ li.ilWikiBlockItem {
   color: #5d5d5d;
 }
 #ilTopNav .dropdown-menu li a:hover {
-  background-color: #FFFFD0;
+  background-color: #A0A0A0;
   color: white;
 }
 @media only screen and (max-width: 767px) {
@@ -11681,7 +11681,7 @@ li.ilWikiBlockItem {
     height: 40px;
     border-radius: 0;
     border-width: 0;
-    background-color: #ffffff;
+    background-color: #ededed;
     color: #ff6600;
     margin: 0;
   }
@@ -11813,7 +11813,7 @@ input.ilOpenIDBox {
 #ilTopBarNav .dropdown-menu a:hover,
 #ilTopBarNav .dropdown-menu a:active,
 #ilTopBarNav .dropdown-menu a:focus {
-  background-color: #FFFFD0;
+  background-color: #A0A0A0;
   color: white;
 }
 #ilTopBarNav > li {
@@ -11829,7 +11829,7 @@ input.ilOpenIDBox {
   min-width: 40px;
   height: 40px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #ededed;
   color: #ff6600;
 }
 #ilTopBarNav > li > a:hover,
@@ -13314,7 +13314,7 @@ div.il_ContainerListItem {
 }
 .ilContainerBlockHeaderExpanded:hover,
 .ilContainerBlockHeaderCollapsed:hover {
-  background-color: #FFFFD0;
+  background-color: #fff0e5;
 }
 [dir="rtl"] .ilContainerBlockHeader {
   text-align: right;
@@ -13560,7 +13560,7 @@ div.ilCreationFormSection .form-horizontal {
   background-color: white;
 }
 .ilObjListRow:hover {
-  background-color: #ffffea;
+  background-color: #ffffff;
 }
 .table-striped {
   border-collapse: separate;
@@ -13569,10 +13569,10 @@ div.ilCreationFormSection .form-horizontal {
   background-color: white;
 }
 .table-striped > tbody > tr.ilObjListRow:hover > td {
-  background-color: #ffffea;
+  background-color: #ffffff;
 }
 .table-striped > tbody > tr.ilObjListRow:hover:nth-child(2n+1) > td {
-  background-color: #ffffea;
+  background-color: #ffffff;
 }
 /* Services/Navigation */
 form.ilNavHistoryForm {
@@ -14275,7 +14275,7 @@ div.ilChecklist ul a:hover {
   color: #557196;
 }
 div.ilChecklist ul li a:hover {
-  background-color: #FFFFD0;
+  background-color: #fff0e5;
 }
 div.ilChecklist ul li p,
 div.ilChecklist ul li p:hover {
@@ -14485,7 +14485,7 @@ body.ilPrtfPdfBody .ilPCMyCoursesToggle img {
   height: 10px;
 }
 #awareness-content .ilHighlighted {
-  background-color: #ffff9d;
+  background-color: #ffd1b3;
   color: #606060;
 }
 .ilAwrnBadgeHidden {
@@ -15669,7 +15669,7 @@ div#il_startup_logo img {
   #ilTopNav .navbar-nav > li > a:hover,
   #ilTopNav .navbar-nav > li > a:active,
   #ilTopNav .navbar-nav > li > a:focus {
-    background-color: #FFFFD0;
+    background-color: #A0A0A0;
     color: white;
   }
 }
@@ -15860,7 +15860,7 @@ a#il_mhead_t_focus {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #ffffff;
+  background-color: #e0e0e0;
 }
 #ilSubTab > li.active > a,
 #ilSubTab > li.active > a:hover,
@@ -15903,10 +15903,10 @@ table.calmini tr:nth-child(odd) {
 div.il_Block,
 table.il_Block {
   background-color: white;
-  border: 1px solid #ffffff;
+  border: 1px solid #ededed;
 }
 table.calmini tr:nth-child(even) {
-  background-color: #ffffff;
+  background-color: #ededed;
 }
 div.ilBlockInfo {
   background-color: transparent;
