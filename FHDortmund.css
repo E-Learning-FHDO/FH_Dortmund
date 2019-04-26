@@ -3556,7 +3556,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: white;
-  background-color: #A0A0A0;
+  background-color: #ffff9d;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -8660,7 +8660,7 @@ span.ilAlert {
 .dropdown-menu li > a:focus {
   text-decoration: none;
   color: white;
-  background-color: #A0A0A0;
+  background-color: #ffff9d;
 }
 .dropdown-menu img {
   border: 0;
@@ -8887,10 +8887,10 @@ code {
   color: #858585;
 }
 ::selection {
-  background: #dce2eb;
+  background: #ffff9d;
 }
 ::-moz-selection {
-  background: #dce2eb;
+  background: #ffff9d;
 }
 @media only screen and (max-width: 767px) {
   textarea {
@@ -9839,7 +9839,7 @@ div.ilSideBarContent {
 .ui-menu .ui-menu-item > *:hover,
 .ui-menu .ui-menu-item > *.ui-state-hover,
 .ui-menu .ui-menu-item > *.ui-state-active {
-  background-color: #A0A0A0;
+  background-color: #ffff9d;
   color: #5d5d5d;
 }
 .ui-menu .ui-menu-item a {
@@ -15760,6 +15760,22 @@ div#il_startup_logo img {
 }
 #registrationMessage div.inner p.small {
   margin-bottom: -5px;
+}
+div.ui-helper-hidden-accessible div:hover,
+div.ui-helper-hidden-accessible div:active,
+div.ui-helper-hidden-accessible div:focus {
+  background-color: #ffff9d;
+}
+::selection {
+  background: #ffff9d !important;
+}
+::-moz-selection {
+  background: #ffff9d !important;
+}
+.ui-menu-item:focus,
+.ui-menu-item:hover,
+.ui-menu-item:active {
+  background: #ffff9d;
 }
 /* end specific fh dortmund stuff */
 /*------------------------------BODY------------------------------*/
