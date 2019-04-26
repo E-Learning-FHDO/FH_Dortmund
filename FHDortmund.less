@@ -197,6 +197,28 @@ div#il_startup_logo img {
 #registrationMessage div.inner p.small {
   margin-bottom:-5px;
 }
+
+div.ui-helper-hidden-accessible div:hover,
+div.ui-helper-hidden-accessible div:active,
+div.ui-helper-hidden-accessible div:focus {
+    background-color: @yellow-highlight;
+}
+
+
+::selection {
+  background: @yellow-highlight !important;
+}
+
+::-moz-selection {
+  background: @yellow-highlight !important;
+}
+
+.ui-menu-item:focus,
+.ui-menu-item:hover,
+.ui-menu-item:active {
+  background: @yellow-highlight;
+}
+
 /* end specific fh dortmund stuff */
 
 
