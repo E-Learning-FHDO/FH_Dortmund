@@ -3555,7 +3555,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: white;
+  color: #434343;
   background-color: #ffff9d;
 }
 .dropdown-menu > .active > a,
@@ -8659,7 +8659,7 @@ span.ilAlert {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
   text-decoration: none;
-  color: white;
+  color: #434343;
   background-color: #ffff9d;
 }
 .dropdown-menu img {
@@ -8887,10 +8887,10 @@ code {
   color: #858585;
 }
 ::selection {
-  background: #ffff9d;
+  background: #dce2eb;
 }
 ::-moz-selection {
-  background: #ffff9d;
+  background: #dce2eb;
 }
 @media only screen and (max-width: 767px) {
   textarea {
@@ -9846,7 +9846,7 @@ div.ilSideBarContent {
   color: #5d5d5d;
 }
 .ui-menu .ui-menu-item a:hover {
-  color: white;
+  color: #434343;
 }
 .ui-menu .ui-menu-category {
   margin: 0;
