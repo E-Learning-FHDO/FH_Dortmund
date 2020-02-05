@@ -15955,6 +15955,11 @@ div.ui-helper-hidden-accessible div:focus {
 .ui-menu-item:active {
   background: #ffff9d;
 }
+.footnote-info {
+  color: #6ea03c;
+  font-size: 90%;
+  vertical-align: super;
+}
 /* end specific fh dortmund stuff */
 /*------------------------------BODY------------------------------*/
 .ilFixedTopSpacer {
